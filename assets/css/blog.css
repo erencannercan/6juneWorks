@@ -1,0 +1,275 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+    font-family: "Open Sans" , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 700;
+    letter-spacing: -0,4px;
+    margin-bottom: 38px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    margin-bottom: 16px;
+}
+
+h3, h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h3 { margin-bottom: 16px; }
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.headerIcon {
+    display: flex;
+    gap: 30px;
+}
+
+/* h1 box baslangic */
+.h1box {
+    padding-top: 80px;
+}
+
+.h1box p {
+    font-family: "Open Sans" , sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+.h1boxSocial {
+    display: flex;
+    gap: 30px;
+    
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.h1boxP{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+.h1boxP img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    
+}
+.h1boxSocial img {
+    width: 40px;
+    height: 40px;
+}
+/* h1 box bitis */
+
+.divider {
+    padding-top: 14px;
+}
+
+.macbook {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.mac{
+    padding-top: 104px;
+    display: flex;
+    gap: 24px;
+}
+
+
+.ozlusoz {
+    text-align: center;
+    background-color: rgba(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 124px 64px 126px;
+    margin-top: 80.5px;
+    flex-direction: column;
+}
+
+.appleWatch{
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+.watchVideo {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.watchVideo h2 {
+    padding-bottom: 32px;
+}
+
+.boxs {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.boxs p{
+    color: #52647C;
+    padding-top: 0px;
+}
+
+.boxs h3 {
+    padding-top: 16px;
+}
+
+.box1{
+    border-radius: 6px;
+    padding: 16px 16px 24px 16px;
+    margin-right: 24px; 
+    box-shadow: 0px 8px 24px rgba(40, 41, 61);  
+}
+
+.box2 {
+    border-radius: 6px;
+    padding: 16px 16px 24px 16px;
+    margin-right: 24px;
+    box-shadow: 0px 8px 24px rgba(40, 41, 61);
+}
+
+.box3{
+    border-radius: 6px;
+    padding: 16px 16px 24px 16px; 
+    box-shadow: 0px 8px 24px rgba(40, 41, 61);
+}
+
+.endPage {
+    display: flex;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+li {
+    list-style: none;
+}
+
+.endPage p {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #807E7E;
+}
+
+.fristColumn{
+    margin-right: 24px;
+}
+
+.secondColumn {
+    margin-right: 24px;
+}
+
+.thirdColumn {
+    margin-right: 24px;
+}
+
+.fourthColumn{
+    margin-right: 30px;
+}
+.placeholder {
+    text-align: right;
+    width: 320px;
+    height: 100px;
+}
+.pageEnd2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+.pageEnd2 p {
+    color:#807E7E;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.logoEnd {
+    width: 19px;
+    height: 19px;
+}
+.pageEnd2 img {
+    width: 20px;
+    height: 20px;
+    
+}
+.z {
+    display: flex;
+}
+
